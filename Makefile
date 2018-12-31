@@ -69,6 +69,8 @@ FILES = ft_memset.c \
 		ft_word_len.c \
 		ft_words_count.c \
 		ft_is_space.c \
+		ft_zero_str.c \
+    ft_is_lower.c \
 		ft_lstnew.c \
 		ft_lstdelone.c \
 		ft_lstdel.c \

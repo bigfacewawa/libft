@@ -59,7 +59,7 @@ char				*ft_strcpy(char *dst, const char *src);
 
 /*part2*/
 
-void        *ft_memalloc(size_t size);
+void        *ft_memalloc(size_t size);jiuft_
 void        ft_memdel(void **ap);
 char        *ft_strnew(size_t size);
 void        ft_strdel(char **as);
@@ -94,5 +94,7 @@ t_list      *ft_lstmap(t_list *lst, t_list * (*f)(t_list *elem));
 int	        ft_words_count(char const *s, char c);
 int	        ft_word_len(char const *s, char const c);
 int	        ft_is_space(char c);
+char		    **ft_zero_str(char **str);
+int			    ft_is_lower(int c);
 
 #endif
