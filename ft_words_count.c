@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   words_count.c                                      :+:      :+:    :+:   */
+/*   ft_words_count.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: yijhuang <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -13,7 +13,7 @@
 #include "libft.h"
 
 /*calculate how many words in a string(*s) delimited by char c*/
-int	words_count(char const *s, char c)
+int	ft_words_count(char const *s, char c)
 {
 	int i;
 	int num;
