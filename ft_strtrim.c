@@ -26,11 +26,11 @@ char *ft_strtrim(char const *s)
 	i = 0;
 	j = 0;
 	len = ft_strlen(s);
-	while (is_space(*(s + i)))
+	while (ft_is_space(*(s + i)))
 	{
 		i++;
 	}
-	while (is_space(*(s + len - 1)))
+	while (ft_is_space(*(s + len - 1)))
 	{
 		len--;
 	}

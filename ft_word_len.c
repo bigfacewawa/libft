@@ -11,7 +11,7 @@
 /* ************************************************************************** */
 
 /*calculate every word len in ft_split*/
-int	word_len(char const *s, char const c)
+int	ft_word_len(char const *s, char const c)
 {
 	int i;
 
