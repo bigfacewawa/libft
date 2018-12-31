@@ -1,18 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_words_count.c                                   :+:      :+:    :+:   */
+/*   words_count.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: yijhuang <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/27 12:10:06 by yijhuang          #+#    #+#             */
-/*   Updated: 2018/12/27 18:42:43 by yijhuang         ###   ########.fr       */
+/*   Updated: 2018/12/30 02:31:06 by yijhuang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/*calculate how many words in a string(*s) delimited by char c*/
 int	ft_words_count(char const *s, char c)
 {
 	int i;

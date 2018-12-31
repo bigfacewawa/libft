@@ -6,13 +6,13 @@
 /*   By: yijhuang <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/26 08:29:33 by yijhuang          #+#    #+#             */
-/*   Updated: 2018/12/26 08:29:39 by yijhuang         ###   ########.fr       */
+/*   Updated: 2018/12/29 22:54:27 by yijhuang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_putstr(char const *str)
+void	ft_putstr(char const *str)
 {
 	if (!str)
 		return ;

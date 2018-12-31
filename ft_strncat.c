@@ -6,7 +6,7 @@
 /*   By: yijhuang <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/09 23:33:53 by yijhuang          #+#    #+#             */
-/*   Updated: 2018/12/19 11:14:53 by yijhuang         ###   ########.fr       */
+/*   Updated: 2018/12/29 23:03:26 by yijhuang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,6 @@ char	*ft_strncat(char *restrict s1, const char *restrict s2, size_t n)
 	src = (char *)s2;
 	dst = s1;
 	i = 0;
-
 	while ((*(src + i) != '\0') && (i < n))
 	{
 		*(dst + len + i) = *(src + i);

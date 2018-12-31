@@ -6,7 +6,7 @@
 /*   By: yijhuang <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/24 20:55:24 by yijhuang          #+#    #+#             */
-/*   Updated: 2018/12/26 06:51:52 by yijhuang         ###   ########.fr       */
+/*   Updated: 2018/12/29 22:57:32 by yijhuang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 char	*ft_strjoin(char const *s1, char const *s2)
 {
 	char	*str;
-	size_t		i;
+	size_t	i;
 	int		j;
 
 	i = 0;

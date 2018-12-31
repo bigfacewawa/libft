@@ -1,16 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_word_len.c                                      :+:      :+:    :+:   */
+/*   word_len.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: yijhuang <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/12/27 18:46:07 by yijhuang          #+#    #+#             */
-/*   Updated: 2018/12/27 18:51:48 by yijhuang         ###   ########.fr       */
+/*   Created: 2018/12/30 01:36:09 by yijhuang          #+#    #+#             */
+/*   Updated: 2018/12/30 02:30:41 by yijhuang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/*calculate every word len in ft_split*/
+#include "libft.h"
+
 int	ft_word_len(char const *s, char const c)
 {
 	int i;
