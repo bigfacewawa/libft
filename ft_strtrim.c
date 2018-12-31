@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   trim only macro.c                                  :+:      :+:    :+:   */
+/*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: yijhuang <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/12/31 00:27:40 by yijhuang          #+#    #+#             */
-/*   Updated: 2018/12/31 00:29:14 by yijhuang         ###   ########.fr       */
+/*   Created: 2018/12/31 00:33:02 by yijhuang          #+#    #+#             */
+/*   Updated: 2018/12/31 00:33:13 by yijhuang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,10 @@ char *ft_strtrim(char const *s)
 	int len;
 	int j;
 
-	NULL_CHECK(!s);
+	if (!s)
+	{
+		return (NULL);
+	}
 	i = 0;
 	j = 0;
 	len = ft_strlen(s);
@@ -39,7 +42,10 @@ char *ft_strtrim(char const *s)
 	{
 		str = (char*)ft_memalloc(1);
 	}
-	NULL_CHECK(!str);
+	if (!str)
+	{
+			return (NULL);
+	}
 	while (j < len - i)
 	{
 		str[j] = s[i + j];
