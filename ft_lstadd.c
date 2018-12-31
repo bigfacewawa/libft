@@ -1,26 +1,19 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_istadd.c                                        :+:      :+:    :+:   */
+/*   ft_lstadd.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: yijhuang <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2018/12/28 20:39:15 by yijhuang          #+#    #+#             */
-/*   Updated: 2018/12/28 20:39:17 by yijhuang         ###   ########.fr       */
+/*   Created: 2018/12/29 17:09:46 by yijhuang          #+#    #+#             */
+/*   Updated: 2018/12/29 22:43:59 by yijhuang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_lstadd(t_list **alst, t_list *new)
+void	ft_lstadd(t_list **alst, t_list *new)
 {
-    if (alst && (*alst))
-    {
-        new->next = (*alst);
-        (*alst) = new;
-    }
-    else if (!(*alst))
-    {
-        (*alst) = new;
-    }
+	new->next = (*alst);
+	(*alst) = new;
 }
