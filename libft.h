@@ -17,8 +17,6 @@
 # include <unistd.h>
 # include <stdlib.h>
 
-# include "macro.h"
-
 typedef struct		s_list
 {
 	void			      *content;
