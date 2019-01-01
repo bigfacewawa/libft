@@ -6,7 +6,7 @@
 /*   By: yijhuang <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/31 00:56:14 by yijhuang          #+#    #+#             */
-/*   Updated: 2018/12/31 16:01:16 by yijhuang         ###   ########.fr       */
+/*   Updated: 2018/12/31 16:16:45 by yijhuang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ char	*ft_strtrim(char const *s)
 		i++;
 	while (ft_is_space(*(s + len - 1)))
 		len--;
-	str =  (char*)ft_memalloc(len - i > 0 ? len - i + 1 : 1);
+	str = (char*)ft_memalloc(len - i > 0 ? (len - i + 1) : 1);
 	if (!str)
 		return (NULL);
 	while (j < len - i)
