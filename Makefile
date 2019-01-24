@@ -6,7 +6,7 @@
 #    By: yijhuang <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/12/13 23:24:03 by yijhuang          #+#    #+#              #
-#    Updated: 2018/12/17 11:41:41 by yijhuang         ###   ########.fr        #
+#    Updated: 2019/01/23 00:04:21 by yijhuang         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -76,7 +76,8 @@ FILES = ft_memset.c \
 		ft_lstdel.c \
 		ft_lstadd.c \
 		ft_lstiter.c \
-		ft_lstmap.c
+		ft_lstmap.c \
+		ft_strjoin_del.c
 
 
 OBJ = $(FILES:%.c=%.o)

@@ -6,7 +6,7 @@
 /*   By: yijhuang <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/06 18:23:13 by yijhuang          #+#    #+#             */
-/*   Updated: 2018/12/31 14:56:31 by yijhuang         ###   ########.fr       */
+/*   Updated: 2019/01/23 00:03:41 by yijhuang         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,5 +88,5 @@ int				ft_word_len(char const *s, char const c);
 int				ft_is_space(char c);
 char			**ft_zero_str(char **str);
 int				ft_is_lower(int c);
-
+char			*ft_strjoin_del(char *s1, char *s2, int i);
 #endif
